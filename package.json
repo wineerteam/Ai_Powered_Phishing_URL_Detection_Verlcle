@@ -5,6 +5,7 @@
   "main": "api/analyze.js",
   "scripts": {
     "dev": "vercel dev",
+    "build": "echo 'No build step required'",
     "start": "node api/analyze.js"
   },
   "dependencies": {
@@ -19,8 +20,11 @@
     "twilio": "^5.9.0",
     "url-parse": "^1.5.10"
   },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
   "engines": {
-    "node": "18.x"
+    "node": ">=18.0.0"
   },
   "keywords": [
     "phishing",
